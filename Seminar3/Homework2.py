@@ -7,6 +7,6 @@
 s = input("Задайте список из нескольких чисел через пробел:   ").split()
 print(s)
 itog = []
-for i in range((len(s)+1)//2):
-    itog.append(int(s[i])*int(s[-(i+1)]))
+for i in range((len(s) + 1)//2):
+    itog.append(int(s[i]) * int(s[-(i+1)]))
 print(itog)
